@@ -8,6 +8,14 @@ console.table(args)
 let fname = args.shift()
 let file = JSON.parse(fs.readFileSync(fname).toString())
 
-while (args.length > 0) { file = file[args.shift()] }
+let layer = 0
+while (args.length > 0) { 
+    nextkey = args.shift() 
+    console.log(layer + ": Keys -> " + JSON.stringify(Object.keys(file)).toString() + " -> " + nextkey); 
+    file = file[nextkey]
+    layer++ }
+
+console.log(layer + ": Keys -> " + JSON.stringify(Object.keys(file)).toString()); 
+
 
 console.table(file)
