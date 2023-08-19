@@ -24,5 +24,7 @@ from anywhere (if you got .local/bin in your path)
 ![gif](demo/logtable.gif)
 
 
-imma leak the chatgpt dms in the bg: 
-https://chat.openai.com/share/be02b7df-c535-4608-b31f-b73586f0cc61
+imma leak the chatgpt dms in the bg: <br>
+https://chat.openai.com/share/be02b7df-c535-4608-b31f-b73586f0cc61 <br>
+recreated what happen next because openai is cringe and broke sharing entire convos via link: <br>
+https://chat.openai.com/share/a8e5d6d6-a55d-4a67-90fb-e0d419e20de6
